@@ -26,3 +26,7 @@ The following example shows how to execute a query that returns a set of values.
 <img src="images/ExecuteSingleRow2.png"/>
 <div><b>Fig 3. Executing the query and getting the output.</b></div>
 <img src="images/ExecuteSingleRow3.png"/>
+<p>
+This program uses the HR samples from Oracle :
+<a href="https://github.com/oracle-samples/db-sample-schemas">Oracle db samples</a>
+</p>
