@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WinAppOraExecuteScalar")]
+[assembly: AssemblyTitle("Samples.WinAppGetValues")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("apifiedsignature")]
-[assembly: AssemblyProduct("WinAppOraExecuteScalar")]
+[assembly: AssemblyProduct("Samples.WinAppGetValues")]
 [assembly: AssemblyCopyright("Copyright © apifiedsignature 2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2170918a-cb16-4b71-a380-0b853d63505c")]
+[assembly: Guid("799f274c-9026-4108-b066-50ff3f158137")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WinAppOraExecuteScalar.Properties
+namespace Samples.WinAppGetValues.Properties
 {
 
 

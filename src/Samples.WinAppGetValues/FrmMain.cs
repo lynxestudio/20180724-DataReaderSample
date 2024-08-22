@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Oracle.DataAccess.Client;
 
-namespace WinAppOraExecuteScalar
+namespace Samples.WinAppGetValues
 {
     public partial class FrmMain : Form
     {
@@ -30,12 +30,12 @@ namespace WinAppOraExecuteScalar
                 OracleConnection conn = ConnectionManager.OpenAndGetConnection(strBuilder.ConnectionString);
                 using (OracleCommand cmd = new OracleCommand(lblQuery.Text, conn))
                 {
-                        cmd.CommandType = CommandType.Text;
-                        using (OracleDataReader reader = cmd.ExecuteReader())
-                        {
-                            reader.Read();
-                            reader.GetOracleValues(results);
-                        }
+                    cmd.CommandType = CommandType.Text;
+                    using (OracleDataReader reader = cmd.ExecuteReader())
+                    {
+                        reader.Read();
+                        reader.GetOracleValues(results);
+                    }
                 }
                 StringBuilder buf = new StringBuilder();
                 buf.AppendLine("+--------+--------+-------+");
@@ -48,9 +48,8 @@ namespace WinAppOraExecuteScalar
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
     }
 }

@@ -1,5 +1,6 @@
 ﻿
-namespace WinAppOraExecuteScalar
+
+namespace Samples.WinAppGetValues
 {
     using Oracle.DataAccess.Client;
     using System.Data;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace WinAppOraExecuteScalar
+namespace Samples.WinAppGetValues
 {
     static class Program
     {
